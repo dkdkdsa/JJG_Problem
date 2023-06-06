@@ -17,6 +17,8 @@ public class Show : MonoBehaviour
     private void Start()
     {
 
+        Debug.Log(2 % 3);
+
         StartCoroutine(ExamCo());
 
     }
