@@ -48,7 +48,7 @@ public class Show : MonoBehaviour
             {
 
                 var q = exam.pluralQus[Random.Range(0, exam.pluralQus.Count)];
-                text.text = q.qus += "\n\n";
+                text.text = q.qus + "\n\n";
                 
                 for(int i = 0; i < q.selects.Count; i++)
                 {
@@ -65,7 +65,7 @@ public class Show : MonoBehaviour
             {
 
                 var q = exam.subjectivityQus[Random.Range(0, exam.subjectivityQus.Count)];
-                text.text = q.qus += "\n\n";
+                text.text = q.qus + "\n\n";
 
                 value = q.answer;
 
