@@ -44,7 +44,7 @@ public class Show : MonoBehaviour
         {
 
             string value = "";
-            if(Random.Range(0, 2) == 0)
+            if(Random.Range(0, 10) < 2)
             {
 
                 var q = exam.pluralQus[Random.Range(0, exam.pluralQus.Count)];
